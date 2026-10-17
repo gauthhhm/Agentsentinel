@@ -10,7 +10,7 @@ from model_client import query_model
 from evaluator import evaluate
 
 
-def run_tests(path="tests/test_cases.json") -> list[dict]:
+def run_tests(path="test_cases.json") -> list[dict]:
     """Run every test case in the JSON file and return a list of result dicts."""
 
     # Step 1: Load the list of test cases from the JSON file
